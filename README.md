@@ -1,22 +1,23 @@
 # webapp2_basic_webpag
-This is basically a webapp2 python google app engine application to deploy a webpage
+This is basically a webapp2 python google app engine application <br/>
+to deploy a webpage <br/>
 
-python version :2.7
-python libraries used :webapp2
-
-
-#app.yaml
-service: webapp  //you can remove this line ine app.yaml if you want to deploy app as default app engine service
+python version :2.7 <br/>
+python libraries used :webapp2 <br/>
 
 
-#To deploy app using cloud shell or google cloud sdk
-#set your project id first
-gcloud config set project [PROJECT_ID]
+#app.yaml <br/>
+service: webapp  //you can remove this line ine app.yaml if you want to deploy app as default app engine service <br/>
 
-#deploy command
-gcloud app deploy
 
-#to view app in browser after deploying
-gcloud app browse -s webapp 
-#the "-s webapp" as declared in app.yaml file ,or if left as a default service,
-#you can remove "-s webapp"
+#To deploy app using cloud shell or google cloud sdk <br/>
+#set your project id first <br/>
+gcloud config set project [PROJECT_ID] <br/>
+
+#deploy command <br/>
+gcloud app deploy <br/>
+
+#to view app in browser after deploying <br/>
+gcloud app browse -s webapp  <br/>
+#the "-s webapp" as declared in app.yaml file ,or if left as a default service, <br/>
+#you can remove "-s webapp" <br/>
