@@ -1,0 +1,11 @@
+runtime: python27
+service: webapp
+threadsafe: true
+
+
+handlers:
+- url: /images
+  static_dir: images
+
+- url: /.*
+  script: main.application
