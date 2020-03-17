@@ -12,12 +12,16 @@ service: webapp  //you can remove this line ine app.yaml if you want to deploy a
 
 #To deploy app using cloud shell or google cloud sdk <br/>
 #set your project id first <br/>
+```
 gcloud config set project [PROJECT_ID] <br/>
-
+```
 #deploy command <br/>
+```
 gcloud app deploy <br/>
-
+```
 #to view app in browser after deploying <br/>
+```
 gcloud app browse -s webapp  <br/>
+```
 #the "-s webapp" as declared in app.yaml file ,or if left as a default service, <br/>
 #you can remove "-s webapp" <br/>
